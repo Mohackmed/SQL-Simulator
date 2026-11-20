@@ -35,6 +35,7 @@ Run the main toolkit script (sqlsimulator.py) using one of the following modes:
 
 1. CLI Mode (Default)
 Run the interactive terminal interface:
+
 python sqlsimulator.py --mode cli
 
 2. Local Web UI

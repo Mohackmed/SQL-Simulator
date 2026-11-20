@@ -40,15 +40,19 @@ python sqlsimulator.py --mode cli
 
 2. Local Web UI
 Launch the local web server:
+
 python sqlsimulator.py --mode web --host 127.0.0.1 --port 5000
 
 
-3. Demo Mode
+4. Demo Mode
 Quickly output an automated showcase of payloads:
+
 python sqlsimulator.py --mode demo
 
 ⚠️ Safety Warning
+
 This tool MUST only be run locally on your own machine. It does not connect to external databases and is meant strictly for education and training in controlled environments. Never use these techniques on production systems or databases you do not own.
 
 📄 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.

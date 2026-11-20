@@ -35,21 +35,17 @@ Run the main toolkit script (sqlsimulator.py) using one of the following modes:
 
 1. CLI Mode (Default)
 Run the interactive terminal interface:
-
-Bash
 python sqlsimulator.py --mode cli
+
 2. Local Web UI
 Launch the local web server:
-
-Bash
 python sqlsimulator.py --mode web --host 127.0.0.1 --port 5000
-Then, open http://127.0.0.1:5000 in your web browser. (Note: This server is bound to localhost for safety).
+
 
 3. Demo Mode
 Quickly output an automated showcase of payloads:
-
-Bash
 python sqlsimulator.py --mode demo
+
 ⚠️ Safety Warning
 This tool MUST only be run locally on your own machine. It does not connect to external databases and is meant strictly for education and training in controlled environments. Never use these techniques on production systems or databases you do not own.
 
